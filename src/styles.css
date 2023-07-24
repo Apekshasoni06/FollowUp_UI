@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background-color: #fcfcfc;
+}
+
+.wrapper .sidebar {
+  background: rgb(255, 255, 255);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100%;
+  padding: 20px 0;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.wrapper .sidebar ul li a {
+  display: block;
+  padding: 13px 30px;
+
+  color: rgb(241, 237, 237);
+  font-size: 16px;
+  position: relative;
+}
+
+.wrapper .sidebar ul li a .icon {
+  color: #dee4ec;
+  width: 3px;
+}
+.wrapper .sidebar ul li a:hover {
+  color: #0c7db1;
+
+  background: white;
+  border-right: 2px solid rgb(5, 68, 104);
+}
+
+.wrapper {
+  float: left;
+}
+.main-container {
+  width: 80vw;
+  padding-left: 2px;
+  padding-top: 2%;
+  display: flex;
+  margin-left: 150px;
+  background-color: white;
+}
+.content-box {
+  width: 80%;
+  height: auto;
+  padding: 20px 40px;
+
+  text-align: left;
+}
+.content-box .h1 {
+  color: grey;
+}
+.content-box .h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+.status {
+  margin-top: 50px;
+  width: 120px;
+  font-size: 11px;
+  height: auto;
+}
+.btn {
+  margin-top: 40px;
+  width: 120px;
+  height: auto;
+}
+.btn button {
+  background-color: rgb(66, 66, 241);
+  width: 100px;
+  border-radius: 4px;
+  padding: 5px;
+  color: white;
+  border-color: rgb(66, 66, 241);
+}
+.info {
+  width: 16.5vw;
+  height: 60px;
+  padding-left: 20px;
+  padding-top: 2%;
+  margin-top: 30px;
+  text-align: left;
+
+  margin-left: 150px;
+  background-color: white;
+}
+.info-rate {
+  color: grey;
+  display: flex;
+}
+.info-rate img {
+  padding-left: 5px;
+}
+
+.second-content {
+  display: flex;
+}
+.info1 {
+  width: 16vw;
+  height: 60px;
+  padding-left: 20px;
+  padding-top: 2%;
+  margin-top: 30px;
+  text-align: left;
+
+  margin-left: 43px;
+  background-color: white;
+}
+body {
+  font-family: "lato", sans-serif;
+}
+.container {
+  width: 80vw;
+  margin-left: 140px;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.container h2 {
+  font-size: 20px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.responsive-table li {
+  border-radius: 3px;
+  padding: 25px 30px;
+  display: flex;
+}
+.responsive-table .table-header {
+  background-color: rgb(255, 255, 255);
+  font-size: 12px;
+  color: #808080;
+
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.responsive-table .table-row {
+  background-color: #ffffff;
+}
+.responsive-table .col-0 {
+  flex-basis: 10%;
+}
+.responsive-table .col-1 {
+  flex-basis: 10%;
+  text-align: center;
+}
+.responsive-table .col-2 {
+  flex-basis: 35%;
+}
+.responsive-table .col-3 {
+  flex-basis: 25%;
+}
+.responsive-table .col-4 {
+  flex-basis: 30%;
+}
+.responsive-table .col-4 .round {
+  background-color: #ebebf3;
+  border-radius: 10px;
+  padding: 2px;
+  margin-left: 85px;
+  margin-right: 85px;
+}
+.responsive-table .col-5 {
+  flex-basis: 20%;
+}
+.container .above-table {
+  display: flex;
+  background-color: white;
+  padding-left: 30px;
+  margin-top: 10px;
+}
+/* Style the custom checkbox */
+.custom-checkbox {
+  position: relative;
+  cursor: pointer;
+  padding-right: 10px;
+}
+
+.custom-checkbox input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Style the visible part of the custom checkbox */
+.custom-checkbox .checkbox {
+  position: absolute;
+
+  top: 2px;
+  left: 0;
+  width: 15px;
+  height: 16px;
+  /* Replace #000 with the desired border color */
+  background-color: rgb(
+    212,
+    207,
+    207
+  ); /* Replace #FFF with the desired background color */
+  border-radius: 4px;
+}
+.above-table .filter {
+  margin-left: 800px;
+  margin-top: 30px;
+  display: flex;
+}
+select {
+  margin-bottom: 15px;
+  border: none;
+  outline: 0px;
+}
+.message {
+  display: flex;
+}
+.message img {
+  margin-top: 50px;
+}
